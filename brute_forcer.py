@@ -72,14 +72,15 @@ class BruteForce:
             sys.exit(1)
 
 
+# Get values from inspecting elements
 if __name__ == "__main__":
     brute_forcer = BruteForce(
-        full_target_url="http://192.168.12.129/dvwa/login.php/",
-        action="login.php",
-        method="post",
-        username_name="username",
-        password_name="password",
-        submit_name="Login",
-        submit_value="Login",
-        error_value="Login failed"
+        full_target_url="[Target URL]",
+        action="[VALUE]",
+        method="[VALUE]",
+        username_name="[VALUE]",
+        password_name="[VALUE]",
+        submit_name="[VALUE]",
+        submit_value="[VALUE]",
+        error_value="[VALUE]"
     )
